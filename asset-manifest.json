@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/viggu18.github.io/flashtype/static/css/main.a51b27e9.css",
-    "main.js": "/viggu18.github.io/flashtype/static/js/main.fe930113.js",
-    "static/media/flash.png": "/viggu18.github.io/flashtype/static/media/flash.96e141d3fe30913c3117.png",
-    "static/media/logo.png": "/viggu18.github.io/flashtype/static/media/logo.904ac8fd0f7b25e86967.png",
-    "index.html": "/viggu18.github.io/flashtype/index.html",
-    "main.a51b27e9.css.map": "/viggu18.github.io/flashtype/static/css/main.a51b27e9.css.map",
-    "main.fe930113.js.map": "/viggu18.github.io/flashtype/static/js/main.fe930113.js.map"
+    "main.css": "/flashtype/static/css/main.a51b27e9.css",
+    "main.js": "/flashtype/static/js/main.82d93da3.js",
+    "static/media/flash.png": "/flashtype/static/media/flash.96e141d3fe30913c3117.png",
+    "static/media/logo.png": "/flashtype/static/media/logo.904ac8fd0f7b25e86967.png",
+    "index.html": "/flashtype/index.html",
+    "main.a51b27e9.css.map": "/flashtype/static/css/main.a51b27e9.css.map",
+    "main.82d93da3.js.map": "/flashtype/static/js/main.82d93da3.js.map"
   },
   "entrypoints": [
     "static/css/main.a51b27e9.css",
-    "static/js/main.fe930113.js"
+    "static/js/main.82d93da3.js"
   ]
 }
