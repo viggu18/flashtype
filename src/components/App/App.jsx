@@ -8,7 +8,7 @@ import ChallengeSection from "../ChallengeSection/ChallengeSection";
 const TotalTime = 60;
 const url = 'http://metaphorpsum.com/paragraphs/1/9';
 const defaultState = {
-        selectedParagraph: '',
+        selectedParagraph: "We can assume that any instance of a market can be construed as a viewless bulb. Though we assume the latter, the midget rice comes from a worthless twist. Those chalks are nothing more than novels. This could be, or perhaps the chive of a dietician becomes a skewbald cloud. A samurai is an unpriced hydrant. Some posit the axile grey to be less than spotless. A face is the back of an algeria. It's an undeniable fact, really; the first pappy kimberly is, in its own way, a lettuce. One cannot separate weights from hurtling shops.",
         timerStarted: false,
         timeRemaining: TotalTime,
         words:0,
@@ -22,15 +22,13 @@ class App extends React.Component{
 
 
     fetchNewParagraph = () =>{
-        fetch(url).then(response => response.text()).then(data => {
-            const selectedArray = data.split('')
+            const selectedArray = this.state.selectedParagraph.split('')
             const testInfo = selectedArray.map(selectedLetter => {
             return{
                 testLetter: selectedLetter,
                 status: 'notAttempted',
             }})
             this.setState({...defaultState,testInfo, selectedParagraph: data})
-            })
     }
 
 
