@@ -28,7 +28,7 @@ class App extends React.Component{
                 testLetter: selectedLetter,
                 status: 'notAttempted',
             }})
-            this.setState({...defaultState,testInfo, selectedParagraph: data})
+            this.setState({...defaultState,testInfo})
     }
 
 
